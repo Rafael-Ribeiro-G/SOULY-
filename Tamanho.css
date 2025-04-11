@@ -1,0 +1,134 @@
+/*É o tamanho das Imagens*/
+.newlogo{
+    width: 5%;
+    margin: 5 0 0 5;
+}
+/*Estilização do header do site*/
+header{
+    background-color: black;
+}
+/*Estilizaçao do BODY do site*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma';
+}
+/*Estilização da DIV do header*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    padding-bottom: 200px;
+}
+/*Estilização do MENU do site*/
+nav{
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+nav a{
+    display: inline;
+    color: white;
+    font-size: 20;
+    margin-right: 30;
+}
+/*Tamanho do banner*/
+.imagem{
+    width: 100%;
+    margin-top: -100;
+}
+/*Fundo da Página*/
+.fundo{
+    margin: 0;
+    background-color: red;
+    text-align: justify;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: -1.50%;
+    color: white;
+    height: 37%;
+}
+/*Foto TESTE*/
+.foto{
+    width: 10%;
+    float: left;
+    margin: 5px 20px; 
+}
+.titulo{
+    color: white;
+    clear: left;
+    text-align: center;
+}
+.risco {
+    text-decoration: none;
+}
+.lugar{
+    clear: left;
+    text-align: center;
+    color: white;
+    margin-top: 0px
+}
+/*Estilização NOSSO ESTABELECIMENTO*/
+.mapaGeral {
+    padding-left: 27.5%;
+}
+.mapa {
+    text-align: center;
+    color: white;
+}
+.fund {
+    background: linear-gradient(red, white);
+    margin-top: 0%;
+}
+.container {
+    text-align: center; /* Centraliza o título */
+    width: 80%;
+    margin: auto;
+}
+.inicio{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; 
+}
+
+.lista {
+    list-style-type: disc; 
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;  
+    max-width: 500px; 
+}
+.modo {
+    width: 200px; 
+    height: auto;
+    flex-shrink: 0; 
+}
+/*Estilização do RODAPÉ*/
+.logo_footer {
+    width: 5%;
+    margin-top: 100px;
+    padding-left: 85%;
+}
+footer {
+    background: linear-gradient(black, white);
+    margin-top: 0%;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 10px 10px 0;
+}
+footer p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+footer i {
+    color: black;
+}
